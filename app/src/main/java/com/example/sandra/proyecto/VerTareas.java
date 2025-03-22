@@ -24,15 +24,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-/**
- * Created by Sandra on 01/03/2018.
- */
-
 public class VerTareas extends AppCompatActivity {
 
     ListView listaPendiente, listaRealizadas, listaTodas;
-   // ArrayList<String> listaTodasTareas;
-   // ArrayList<tareas> listaTareasRealizadas;
+    // ArrayList<String> listaTodasTareas;
+    // ArrayList<tareas> listaTareasRealizadas;
     ConexionSQLite conect;
     ArrayList<String> listaTareasPendientes;
     ArrayAdapter adaptador;
@@ -100,19 +96,15 @@ public class VerTareas extends AppCompatActivity {
                 System.out.print(temp);
             }
 
-
             //Cuando pulso una tarea
-            listaPendiente.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                    String valor = (String) adaptador.getItem(position);
+            listaPendiente.setOnItemClickListener((adapterView, view, position, id) -> {
+                String valor = (String) adaptador.getItem(position);
 
-                    Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
-                    intent.putExtra(detalle, valor);
-                    startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
+                intent.putExtra(detalle, valor);
+                startActivity(intent);
 
-                    Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
-                }
+                Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
             });
 
 
@@ -146,17 +138,14 @@ public class VerTareas extends AppCompatActivity {
 
 
             //Cuando pulso una tarea
-            listaRealizadas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                    String valor = (String) adaptador.getItem(position);
+            listaRealizadas.setOnItemClickListener((adapterView, view, position, id) -> {
+                String valor = (String) adaptador.getItem(position);
 
-                    Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
-                    intent.putExtra(detalle, valor);
-                    startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
+                intent.putExtra(detalle, valor);
+                startActivity(intent);
 
-                    Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
-                }
+                Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
             });
 
 
@@ -192,17 +181,14 @@ public class VerTareas extends AppCompatActivity {
 
 
             //Cuando pulso una tarea
-            listaTodas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                    String valor = (String) adaptador.getItem(position);
+            listaTodas.setOnItemClickListener((adapterView, view, position, id) -> {
+                String valor = (String) adaptador.getItem(position);
 
-                    Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
-                    intent.putExtra(detalle, valor);
-                    startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), InformacionTarea.class);
+                intent.putExtra(detalle, valor);
+                startActivity(intent);
 
-                    Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
-                }
+                Toast.makeText(getApplicationContext(), "Pulsaste " + valor, Toast.LENGTH_LONG).show();
             });
 
 
@@ -231,7 +217,7 @@ public class VerTareas extends AppCompatActivity {
                 lista.add(registros.getString(0) + " - " + registros.getString(1));
             } while (registros.moveToNext());//Pasamos a la siguiente tarea
         }
-        return lista;//Devolvemos la lista con las tareas pendientes
+        return lista;
     }
 
 
@@ -245,9 +231,6 @@ public class VerTareas extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         //Miramos cuál de los dos marcó
@@ -261,7 +244,7 @@ public class VerTareas extends AppCompatActivity {
             startActivity(intent);
         } else if (id == R.id.principal) {
             //vuelve a la Actividad anterior a la que te encuentras ahora
-            onBackPressed();
+            getOnBackPressedDispatcher().onBackPressed();
         } else if (id == R.id.cerrar) {
             Toast.makeText(this, "Cerrar sesión", Toast.LENGTH_LONG).show();
         }
