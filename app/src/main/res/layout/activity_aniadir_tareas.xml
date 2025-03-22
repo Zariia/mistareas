@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/rellenaCampos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Rellene todos los campos con los datos pedidos"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/nombreTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Nombre de la tarea"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/descripcionTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Descripción de la tarea"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/campoDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/tiempoTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Tiempo medio de realización en minutos"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/campoTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/nivelTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Nivel de dificultad"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04">
+
+        <RadioButton
+        android:id="@+id/radioButtonFacil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Fácil" />
+
+        <RadioButton
+        android:id="@+id/radioButtonComplicado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Complicado" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/agregarTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="agregarTarea"
+        android:text="Agregar tarea" />
+
+</LinearLayout>

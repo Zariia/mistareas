@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Cambiamos el color de la barra superior y el de la barra superior del teléfono al tener la app abierta. -->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/fondo</item>
+    </style>
+
+</resources>
