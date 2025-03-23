@@ -1,71 +1,63 @@
 
 E
-java:S3740&"/Provide the parametrized type for this generic.(¡Õ–É
+java:S3740""/Provide the parametrized type for this generic.(¡Õ–É
 D
-java:S3740]"/Provide the parametrized type for this generic.(’Ã¤%
+java:S3740Y"/Provide the parametrized type for this generic.(’Ã¤%
 E
-java:S3740‰"/Provide the parametrized type for this generic.(’Ã¤%
+java:S3740"/Provide the parametrized type for this generic.(’Ã¤%
 E
-java:S3740·"/Provide the parametrized type for this generic.(’Ã¤%
+java:S3740¬"/Provide the parametrized type for this generic.(’Ã¤%
 K
-java:S3740Ù"/Provide the parametrized type for this generic.(—“œÿÿÿÿÿ
+java:S3740Ë"/Provide the parametrized type for this generic.(—“œÿÿÿÿÿ
 Œ
-java:S1319Ù"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—“œÿÿÿÿÿ
-C
-java:S1604i"(Make this anonymous inner class a lambda(·”˜ÿÿÿÿÿ
-D
-java:S1604•"(Make this anonymous inner class a lambda(‡¾½¶øÿÿÿÿ
->
-java:S1604Ã"(Make this anonymous inner class a lambda(Í÷Æ#
-t	java:S115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙèĞ¼ûÿÿÿÿ
+java:S1319Ë"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—“œÿÿÿÿÿ
+t	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙèĞ¼ûÿÿÿÿ
 g
-java:S1659!"LDeclare "listaRealizadas" and all following declarations on a separate line.(ë€Ìÿÿÿÿÿ
-X	java:S125""<This block of commented-out lines of code should be removed.(Õ³Á8äÉıôÛ2
+java:S1659"LDeclare "listaRealizadas" and all following declarations on a separate line.(ë€Ìÿÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(Õ³Á8äÉıôÛ2
 `
-java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(ÙèĞ¼ûÿÿÿÿ
+java:S1124#"EReorder the modifiers to comply with the Java Language Specification.(ÙèĞ¼ûÿÿÿÿ
 E
-java:S18742"/Remove this use of "TabHost"; it is deprecated.(‚Óì›
+java:S1874."/Remove this use of "TabHost"; it is deprecated.(‚Óì›
 E
-java:S18742"/Remove this use of "TabHost"; it is deprecated.(‚Óì›
+java:S1874."/Remove this use of "TabHost"; it is deprecated.(‚Óì›
 H
-java:S18743"-Remove this use of "setup"; it is deprecated.(¨Ìç÷ùÿÿÿÿ
+java:S1874/"-Remove this use of "setup"; it is deprecated.(¨Ìç÷ùÿÿÿÿ
 J
-java:S18745"/Remove this use of "TabHost"; it is deprecated.(’ëœùÿÿÿÿ
+java:S18741"/Remove this use of "TabHost"; it is deprecated.(’ëœùÿÿÿÿ
 J
-java:S18745"/Remove this use of "TabSpec"; it is deprecated.(’ëœùÿÿÿÿ
+java:S18741"/Remove this use of "TabSpec"; it is deprecated.(’ëœùÿÿÿÿ
 M
-java:S18745"2Remove this use of "newTabSpec"; it is deprecated.(’ëœùÿÿÿÿ
+java:S18741"2Remove this use of "newTabSpec"; it is deprecated.(’ëœùÿÿÿÿ
 M
-java:S18747"2Remove this use of "setContent"; it is deprecated.(ÅùÚòûÿÿÿÿ
+java:S18743"2Remove this use of "setContent"; it is deprecated.(ÅùÚòûÿÿÿÿ
 J
-java:S18748"4Remove this use of "setIndicator"; it is deprecated.(ØŠŠÒ
-V	java:S1259"<This block of commented-out lines of code should be removed.(£Ù€»şÿÿÿÿ
+java:S18744"4Remove this use of "setIndicator"; it is deprecated.(ØŠŠÒ
+V	java:S1255"<This block of commented-out lines of code should be removed.(£Ù€»şÿÿÿÿ
 I
-java:S1874:".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
+java:S18746".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
 M
-java:S1874="2Remove this use of "newTabSpec"; it is deprecated.(…¯şùÿÿÿÿ
+java:S18749"2Remove this use of "newTabSpec"; it is deprecated.(…¯şùÿÿÿÿ
 G
-java:S1874?"2Remove this use of "setContent"; it is deprecated.(Ÿûù]
+java:S1874;"2Remove this use of "setContent"; it is deprecated.(Ÿûù]
 O
-java:S1874@"4Remove this use of "setIndicator"; it is deprecated.(ÅÄüíúÿÿÿÿ
+java:S1874<"4Remove this use of "setIndicator"; it is deprecated.(ÅÄüíúÿÿÿÿ
 I
-java:S1874A".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
+java:S1874=".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
 H
-java:S1874C"2Remove this use of "newTabSpec"; it is deprecated.(‹ŸÙ
+java:S1874?"2Remove this use of "newTabSpec"; it is deprecated.(‹ŸÙ
 M
-java:S1874E"2Remove this use of "setContent"; it is deprecated.(¯à€†ıÿÿÿÿ
+java:S1874A"2Remove this use of "setContent"; it is deprecated.(¯à€†ıÿÿÿÿ
 O
-java:S1874F"4Remove this use of "setIndicator"; it is deprecated.(‘åÓùÿÿÿÿ
+java:S1874B"4Remove this use of "setIndicator"; it is deprecated.(‘åÓùÿÿÿÿ
 I
-java:S1874G".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
+java:S1874C".Remove this use of "addTab"; it is deprecated.(˜±Ôàùÿÿÿÿ
 K
-java:S1874I"5Remove this use of "setCurrentTab"; it is deprecated.(É„®ó
-E	java:S106d"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
-@	java:S106x"+Replace this use of System.out by a logger.(ğ¹­Î
-F	java:S106"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
-A	java:S106¤"+Replace this use of System.out by a logger.(ğ¹­Î
-F	java:S106¾"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
-F	java:S106Ò"+Replace this use of System.out by a logger.(‡Öãùøÿÿÿÿ
-i	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“œÿÿÿÿÿ
-Q
-java:S1874ˆ"5Remove this use of "onBackPressed"; it is deprecated.(ùÃ¦Õøÿÿÿÿ
+java:S1874E"5Remove this use of "setCurrentTab"; it is deprecated.(É„®ó
+E	java:S106`"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
+@	java:S106p"+Replace this use of System.out by a logger.(ğ¹­Î
+F	java:S106ˆ"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
+A	java:S106™"+Replace this use of System.out by a logger.(ğ¹­Î
+F	java:S106³"+Replace this use of System.out by a logger.(Ç¿Ãùÿÿÿÿ
+F	java:S106Ä"+Replace this use of System.out by a logger.(‡Öãùøÿÿÿÿ
+i	java:S100Ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—“œÿÿÿÿÿ
