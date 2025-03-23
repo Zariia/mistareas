@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         int id = view.getId();
         if (id == R.id.botonLogearse) {
-            Intent intent = new Intent(MainActivity.this, LoguearUsuario.class);
+            Intent intent = new Intent(MainActivity.this, Principal.class);
             startActivity(intent);
         } else if (id == R.id.btnRegistro) {
             Intent intent2 = new Intent(MainActivity.this, RegistrarUsuario.class);

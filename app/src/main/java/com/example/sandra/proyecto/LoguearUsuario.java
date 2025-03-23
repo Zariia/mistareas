@@ -12,17 +12,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.tareas.R;
 
-public class LoguearUsuario extends AppCompatActivity {
+public class LoguearUsuario {
     EditText usuario1, clave;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_loguear_usuario);
 
-        usuario1 = (EditText) findViewById(R.id.logUsuario);
-        clave = (EditText) findViewById(R.id.logClave);
-    }
+
+    //    usuario1 = (EditText) findViewById(R.id.logUsuario);
+    //    clave = (EditText) findViewById(R.id.logClave);
+
     //Miramos que dia es por si hay que resetear o dar puntos o que?¿
 
 
@@ -57,8 +54,6 @@ public class LoguearUsuario extends AppCompatActivity {
                     //si son iguales entonces vamos a la ventana principal y mandamos el id del usuarioz------------------------------*/
         //Comprobamos que tenga tareas asignadas hoy
         //Sino le asignamos 3 tareas
-        Intent ven = new Intent(this, Principal.class);
-        startActivity(ven);
 
         //limpiamos las cajas de texto
         //usuario1.setText("");
@@ -77,37 +72,5 @@ public class LoguearUsuario extends AppCompatActivity {
         fila.close();*/
         //db.close();
     }//fin comprobar logueo
-
-
-    /*************************************** Menú ************************************************/
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflamos el menú
-        getMenuInflater().inflate(R.menu.menu_index, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        //Miramos cuál de los dos marcó
-        if (id == R.id.salir) {//Si eligió salir cerramos la aplicación
-            //Creamos un intent para llamar a la clase principal(main)
-            Intent intent = new Intent(Intent.ACTION_MAIN);
-            //al llamarla se borran todas las actividades que llamamos
-            intent.addCategory(Intent.CATEGORY_HOME);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            //al iniciarla no hay nada y manda al inicio
-            startActivity(intent);
-        } else if (id == R.id.instrucciones) {
-            Toast.makeText(this, "Ir a instrucciones", Toast.LENGTH_LONG).show();
-        } else if (id == R.id.ajustes) {
-            Toast.makeText(this, "Ir a ajustes", Toast.LENGTH_LONG).show();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
 }

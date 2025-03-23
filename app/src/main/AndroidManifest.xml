@@ -23,7 +23,6 @@
         <activity android:name="com.example.sandra.proyecto.RegistrarUsuario" />
         <activity android:name="com.example.sandra.proyecto.Principal" />
         <activity android:name="com.example.sandra.proyecto.EditarTareas" />
-        <activity android:name="com.example.sandra.proyecto.LoguearUsuario" />
         <activity android:name="com.example.sandra.proyecto.InformacionTarea" />
     </application>
 
