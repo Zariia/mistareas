@@ -1,16 +1,7 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.tareas.R;
 
 public class LoguearUsuario {
     EditText usuario1, clave;

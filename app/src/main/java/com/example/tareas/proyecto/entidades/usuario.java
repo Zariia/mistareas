@@ -1,10 +1,6 @@
-package com.example.sandra.proyecto.entidades;
+package com.example.tareas.proyecto.entidades;
 
 import java.io.Serializable;
-
-/**
- * Created by Sandra on 27/02/2018.
- */
 
 public class usuario implements Serializable{
     //Atributos de usuario
@@ -16,7 +12,6 @@ public class usuario implements Serializable{
     private Integer anioNacido;
 
 
-    //Constructor con parámetros
     public usuario(Integer idUsuario, String nombre, String apellido, String nick, String clave, Integer anioNacido) {
         this.idUsuario = idUsuario;
         this.nombre = nombre;
@@ -24,11 +19,6 @@ public class usuario implements Serializable{
         this.nick = nick;
         this.clave = clave;
         this.anioNacido = anioNacido;
-    }
-
-    //Constructor vacío
-    public usuario(){
-
     }
 
 

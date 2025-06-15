@@ -1,4 +1,4 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.widget.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sandra.proyecto.sql.ConexionSQLite;
+import com.example.tareas.proyecto.sql.ConexionSQLite;
 import com.example.tareas.R;
 import com.google.android.material.snackbar.Snackbar;
 

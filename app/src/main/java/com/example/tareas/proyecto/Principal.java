@@ -1,4 +1,4 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sandra.proyecto.sql.ConexionSQLite;
+import com.example.tareas.proyecto.sql.ConexionSQLite;
 import com.example.tareas.R;
 
 public class Principal extends AppCompatActivity implements View.OnClickListener {
@@ -64,8 +64,6 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
 
     }
 
-
-    /*************************************** Menú ************************************************/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

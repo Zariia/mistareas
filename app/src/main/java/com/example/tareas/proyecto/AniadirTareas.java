@@ -1,4 +1,4 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -14,12 +14,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sandra.proyecto.sql.ConexionSQLite;
+import com.example.tareas.proyecto.sql.ConexionSQLite;
 import com.example.tareas.R;
 
-/**
- * Created by Sandra on 02/03/2018.
- */
 
 public class AniadirTareas extends AppCompatActivity {
     private EditText campoNombre, campoDescripcion, campoTiempo;

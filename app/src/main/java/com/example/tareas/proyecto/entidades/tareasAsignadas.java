@@ -1,14 +1,9 @@
-package com.example.sandra.proyecto.entidades;
+package com.example.tareas.proyecto.entidades;
 
 import java.io.Serializable;
 import java.sql.Date;
 
-/**
- * Created by Sandra on 27/02/2018.
- */
-
 public class tareasAsignadas implements Serializable {
-    //Atributos de tareas asignadas
     private Integer id;
     private Date fechaAsignada;
     private Date fechaVencimiento;
@@ -16,7 +11,6 @@ public class tareasAsignadas implements Serializable {
     private Integer idTarea;
     private Integer idUsuario;
 
-    //Constructor con parámetros
     public tareasAsignadas(Integer id, Date fechaAsignada, Date fechaVencimiento, Boolean realizada, Integer idTarea, Integer idUsuario) {
         this.id = id;
         this.fechaAsignada = fechaAsignada;
@@ -24,12 +18,6 @@ public class tareasAsignadas implements Serializable {
         this.realizada = realizada;
         this.idTarea = idTarea;
         this.idUsuario = idUsuario;
-    }
-
-
-    //Constructor sin parámetros
-    public tareasAsignadas(){
-
     }
 
 

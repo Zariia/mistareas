@@ -1,4 +1,4 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -7,8 +7,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -17,7 +15,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sandra.proyecto.sql.ConexionSQLite;
+import com.example.tareas.proyecto.sql.ConexionSQLite;
 import com.example.tareas.R;
 
 import java.util.ArrayList;

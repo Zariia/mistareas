@@ -1,4 +1,4 @@
-package com.example.sandra.proyecto;
+package com.example.tareas.proyecto;
 
 import org.junit.Test;
 

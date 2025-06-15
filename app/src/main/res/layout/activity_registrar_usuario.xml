@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.example.sandra.proyecto.RegistrarUsuario"> <!-- quitamos el foco-->
+    tools:context="com.example.tareas.proyecto.RegistrarUsuario"> <!-- quitamos el foco-->
 
 
     <TextView

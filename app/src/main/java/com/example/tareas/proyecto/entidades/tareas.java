@@ -1,20 +1,15 @@
-package com.example.sandra.proyecto.entidades;
+package com.example.tareas.proyecto.entidades;
 
 import java.io.Serializable;
 
-/**
- * Created by Sandra on 27/02/2018.
- */
 
 public class tareas implements Serializable {
-    //Atributos de la tabla tareas
     private Integer idTarea;
     private String nombre;
     private String descripcion;
     private Integer tiempoMedio;
     private Boolean nivelDificultad;
 
-    //Constructor con parámetros
     public tareas(Integer idTarea, String nombre, String descripcion, Integer tiempoMedio, Boolean nivelDificultad) {
         this.idTarea = idTarea;
         this.nombre = nombre;
@@ -23,7 +18,6 @@ public class tareas implements Serializable {
         this.nivelDificultad = nivelDificultad;
     }
 
-    //Constructor sin parámetros
     public tareas(){
 
     }

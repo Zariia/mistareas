@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.sandra.proyecto.MainActivity"
+            android:name="com.example.tareas.proyecto.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,13 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sandra.proyecto.VerTareas" />
-        <activity android:name="com.example.sandra.proyecto.AniadirTareas" />
-        <activity android:name="com.example.sandra.proyecto.VerRanking" />
-        <activity android:name="com.example.sandra.proyecto.RegistrarUsuario" />
-        <activity android:name="com.example.sandra.proyecto.Principal" />
-        <activity android:name="com.example.sandra.proyecto.EditarTareas" />
-        <activity android:name="com.example.sandra.proyecto.InformacionTarea" />
+        <activity android:name="com.example.tareas.proyecto.VerTareas" />
+        <activity android:name="com.example.tareas.proyecto.AniadirTareas" />
+        <activity android:name="com.example.tareas.proyecto.VerRanking" />
+        <activity android:name="com.example.tareas.proyecto.RegistrarUsuario" />
+        <activity android:name="com.example.tareas.proyecto.Principal" />
+        <activity android:name="com.example.tareas.proyecto.EditarTareas" />
+        <activity android:name="com.example.tareas.proyecto.InformacionTarea" />
     </application>
 
 </manifest>
